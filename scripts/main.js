@@ -1,5 +1,5 @@
 /*
- * Calculate Overworld to Nether coordinates in-game without leaving
+ * Calculate Overworld to Nether coordinates in-game.
  * by MyNameIsDIG 
  * https://github.com/MyNameIsDIG
  */
@@ -28,9 +28,9 @@ world.beforeEvents.chatSend.subscribe((chat) => {
                 } else {
                     z = Math.floor(z / 8);
                 }
-                sender.sendMessage(`Nether Coordinates: ${x}, ${y}, ${z}.`);
+                sender.sendMessage(`Nether Coordinates: ${x}, ${y}, ${z}`);
             } else {
-                sender.sendMessage('DIG\'s Nether Calculator\n§bUsage: -netherify <x> <y> <z>');
+                sender.sendMessage('DIG\'s Netherify:\n§bUsage: -netherify <x> <y> <z>');
             }
         }
     }

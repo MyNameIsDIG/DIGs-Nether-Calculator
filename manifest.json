@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "DIG's Nether Calculator",
+		"name": "DIG's Netherify",
 		"description": "by MyNameIsDIG",
 		"min_engine_version": [
 			1,
