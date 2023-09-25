@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "DIG's Nether Calculator",
+		"description": "by MyNameIsDIG",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "39e0a2f0-300a-46b2-9534-0f8a9a0d1f3a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "771048ec-e563-4cda-aa2c-8ba59b7b49d8",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "4c43657f-fdda-4779-8a34-8de53bf5f8cc",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.6.0-beta"
+		}
+	]
+}
