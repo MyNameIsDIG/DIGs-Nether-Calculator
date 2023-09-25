@@ -28,7 +28,7 @@ world.beforeEvents.chatSend.subscribe((chat) => {
                 } else {
                     z = Math.floor(z / 8);
                 }
-                sender.sendMessage(`Nether Coordinates: ${x}, ${y}, ${z}`);
+                sender.sendMessage(`§cNether Coordinates: ${x}, ${y}, ${z}`);
             } else {
                 sender.sendMessage('DIG\'s Netherify:\n§bUsage: -netherify <x> <y> <z>');
             }
